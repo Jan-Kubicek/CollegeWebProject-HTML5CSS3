@@ -1,0 +1,1415 @@
+body
+{
+    font-family:Arial,sans-serif;
+    background-color: gray;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.slozky
+{
+    display:block;
+    margin-left: 5%;
+    float:left;
+    max-width: 100%;
+    max-height: 100%;
+    background-color: rgb(55,55,55);
+}
+#zprava
+{
+background-color: white;
+}
+#slozka
+{
+    background-color: white;
+}
+.hradek-pole
+{
+    width: 500px;
+    max-width: 100%;
+    height: 500px;
+    max-width: 100%;
+    margin-top:20%;
+    border-style: solid;
+    border-color:black;
+    border-width: 1px;
+    float:right;
+    background-color: white;
+    margin-right: 5%;
+}
+.h-radek
+{
+    background-color: rgb(55,55,55);
+    border-bottom-style:solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+}
+.h-radek-text
+{
+    text-align:left;
+    background-color: white;
+}
+.h-radek
+{ 
+    margin:auto;
+    float: left;
+    align-items: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+#pozadi
+{
+    background-color: rgb(55,55,55);
+}
+.banner
+{
+    width: auto;
+    height: auto;
+    background-color: rgb(55,55,55);
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+}
+nav
+{
+    text-align: center;
+    overflow: hidden;
+    width: 100%;
+}
+.odkaz
+{
+    text-align: center;
+    color:darkred;
+    font-weight: bold;
+}
+.odkaz:hover
+{
+    color:#ff3d41;
+}
+.textclanku2 p
+{
+    text-align: center;
+}
+nav ul 
+{
+    list-style-type: none;
+    max-width: 100%;
+    max-height: 100%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(55,55,55);
+}
+nav li
+{ 
+    padding: 2%;
+    float:left;
+    text-align: center;
+    background-color: rgb(55,55,55);
+}
+nav li:hover
+{
+    background-color: #ff3d41;
+}
+#aktualni
+{
+    background-color: #ff3d41;
+}
+nav li a 
+{
+    text-decoration: none;
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+main
+{
+    overflow: hidden;
+    margin-left: auto;
+    margin-right:auto;
+    background-color: white;
+}
+
+figcaption
+{
+    background-color: white;
+    color:black;
+    font-size: smaller;
+    font-weight: bold;
+}
+footer
+{
+    float: left;
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+    padding-top:2%;
+    padding-bottom:2%;
+    background-color:rgb(55,55,55);
+    text-align: center;
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+}
+footer .mail
+{
+    text-decoration: none;
+    color:white;
+}
+header h1
+{
+    background-color: rgb(55,55,55);
+    color:white;
+    font-size: 3em;
+    font-weight: bolder;
+    padding: 5%;
+}
+article h2
+{
+ margin-bottom:0px;
+}
+article p
+{
+    margin: 0px;
+}
+.seznam1
+{   
+    margin-left:0px;
+    padding-left: 0px;
+    list-style-type: none;
+}
+.seznam1 li
+{
+     margin-bottom:0%;
+     margin-top:0%;
+}
+.seznam1nadpis
+{
+    font-weight: bolder;
+    font-size: 1.3em;
+}
+table
+{
+    width: 100%;
+    border-style: solid;
+    border-color:black;
+    border-width: 2px;
+    text-align: center;
+}
+tbody td
+{
+    border-bottom-style: solid;
+    border-bottom-color: black;
+    border-bottom-width: 1px;
+}
+tfoot
+{
+    background-color: rgb(55,55,55);
+    color:white;
+    font-weight: bold;
+}
+main h2
+{
+    text-align: center;
+}
+.ftkgalerie
+{
+    width: 500px;
+    max-width: 100%;
+    height: 300px;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+}
+.ftkgalerie:hover
+{
+    transform: scale(1.15);
+}
+.galerie
+{
+    overflow: hidden;
+    float:left;
+    background-color: white;
+    display: block;
+    border-style: solid;
+    border-color:black;
+    border-width: 2px;
+    width: 500px;
+    max-width: 100%;
+    height: 400px;
+    max-height: 100%;
+    margin-left: 1.5%;
+    margin-right: auto;
+    margin-bottom:2%;
+}
+.p-o
+{
+    overflow-y: auto;
+    padding-right: 10px;
+    padding-bottom:10px;
+    padding-left: 1.5%;
+    text-align: center;
+    background-color: white;
+}
+.zdroj
+{ 
+    font-size:small;
+    color:black;
+    font-weight: bold;
+}
+figcaption
+{
+    overflow: auto;
+}
+.p-o-text
+{
+    padding:2%;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+.clanek2
+{
+    float: left;
+    background-color: rgb(55,55,55);
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 350px;
+    max-width: 100%;
+    margin-left: 3%;
+    margin-right: auto;
+    height: 1200px;
+}
+.nadpis2
+{
+    background-color:  rgb(55,55,55);
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    padding:2px;
+    margin-bottom: 0px;
+}
+.fot2
+{
+    width:300px;
+    max-width: 100%;
+    height:auto;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.fot2:hover
+{
+    background-color: #ff3d41;
+}
+.obrazek2
+{
+    margin-top:0px;
+    background-color: rgb(55,55,55);
+}
+.textclanku2
+{
+    background-color: white;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.clanek1
+{
+    float: left;
+    background-color: rgb(55,55,55);
+    display: block;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    width: 500px;
+    max-width: 100%;
+    margin-left: 1.5%;
+    margin-right: auto;
+}
+.nadpis1
+{
+    background-color:  rgb(55,55,55);
+    color:white;
+    font-size: larger;
+    font-weight: bolder;
+    text-align: center;
+    padding:2px;
+    margin-bottom: 0px;
+}
+.fot1
+{
+    width:500px;
+    max-width: 100%;
+    height:auto;
+    max-height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.obrazek1
+{
+    margin-top:0px;
+    background-color: rgb(55,55,55);
+}
+.textclanku1
+{
+    background-color: white;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+.hbanner
+{  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hlogo
+{
+   display: block;
+   width: 80px;
+   max-width: 100%;
+   height: 80px;
+   max-height: 100%;
+   float:left; 
+   margin-left:5%;
+   margin-right: auto;
+   padding-top:5px;
+   padding-bottom:5px;
+}
+.top
+{
+    margin-right: 10%;
+    float: right;
+    text-decoration: none;
+    color:white;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+.top:hover
+{
+    background-color: #ff3d41;
+}
+.zdrojstranka
+{
+    margin-right: 5%;
+    float: right;
+    text-decoration: none;
+    color:white;
+    padding: 15px;
+    font-size: larger;
+    font-weight: bold;
+}
+.zdrojstranka:hover
+{
+    background-color: #ff3d41;
+}
+.funkcionar 
+{
+    overflow-y: auto;
+    float: left;
+    text-align: center;
+    width: 300px;
+    max-width: 100%;
+    height: 450px;
+    max-height: 100%;
+    border-style: solid;
+    border-color:black;
+    border-width: 1px;
+    background-color: rgb(55,55,55);
+    margin-left: 6%;
+    margin-right: auto;
+}
+.funkce
+{
+    background-color: rgb(55,55,55);
+    font-weight: bolder;
+    color:white;
+    font-size: large;
+}
+.profilovka
+{
+    width: 250px;
+    max-width: 100%;
+    height: 250px;
+    max-height: 100%;
+}
+.profilovka:hover
+{
+    transform: scale(1.10);
+}
+.cv
+{
+    overflow-y: auto;
+    background-color: white;
+}
+.cv p
+{
+    margin-top: 1%;
+}
+.funcjm
+{
+    font-size: larger;
+    font-weight: bold;
+}
+.mailprof
+{
+    color:darkred;
+    font-weight: bold;
+}
+.nazevrady
+{
+    text-align: center;
+    background-color: rgb(55,55,55);
+    color:white;
+    font-size: larger;
+    font-weight: bold;
+}
+.rada
+{
+    margin-top: 2%;
+    width: 800px;
+    height: 200px;
+    max-width: 100%;
+    max-height: 100%;
+    border-style:solid;
+    border-color:black;
+    border-width: 1px;
+    margin-left: 2%;
+    text-align: center;
+    font-size: large;
+}
+.clen
+{
+    margin-top: 2%;
+    margin-bottom: 10px;
+    margin-bottom: 2%;
+}
+.tadresy
+{
+    border-style:solid;
+    border-color:black;
+    border-width: 1px;
+    align-items: center;
+    text-align: center;
+    width:750px;
+    max-width: 100%;
+    height: 400px;
+    max-height: 100%;
+    margin-left: 5%;
+    margin-top:4%;
+    font-size: large;
+}
+.mapaadresy
+{
+    margin-top:10px;
+    margin-left:23%;
+    margin-right: auto;
+    align-items: center;
+    text-align: center;
+    height:300px;
+    width:400px;
+}
+.mapa
+{
+    border:0;
+    overflow:hidden;
+    margin-top:0%;
+    margin-bottom: 0%;
+    margin-left: 0%;
+    margin-left: 0%;
+    align-items: center;
+    text-align: center;
+    background:none;
+    height:300px;
+    width:400px;
+}
+.historie
+{
+    margin-top:2%;
+    float:left;
+    align-items: center;
+    text-align: center;
+    font-size: larger;
+    background-color: white;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+.historienad
+{
+    background-color: rgb(55,55,55);
+    color:white;
+    font-size: large;
+    font-weight: bold;
+}
+.odkazztextu
+{
+    color:darkred;
+    font-weight: bolder;
+}
+.zdroje
+{
+    text-align: center;
+    border-bottom-style:solid;
+    border-bottom-color: rgb(55,55,55);
+    border-bottom-width: 1px;
+}
+.j-stranky
+{
+    color: white;
+    background-color: rgb(55,55,55);
+    font-size: larger;
+    font-weight: bolder;
+}
+.zdroje:nth-child(even) {background-color: rgb(235, 235, 235);}
+.z-stranky a
+{
+    color:darkred;
+    font-size: smaller;
+    font-weight: bold;
+}
+.z-stranky a:hover
+{
+    color:#ff3d41;
+    font-size: smaller;
+    font-weight: bold;
+}
+form
+{
+    background-color: lightgray;
+    font-size: large;
+    text-align: center;
+}
+.propojenost
+{
+        text-align: center;
+}
+.kform
+{
+    align-items: center;
+    margin: auto;
+    text-align: center;
+    width: 800px;
+    max-width: 100%;
+    height: 200px;
+    max-width: 100%;
+    border-style: solid;
+    border-color:black;
+    border-width: 1px;
+}
+.kformname
+{
+    text-align: center;
+    background-color: rgb(55,55,55);
+    color:white;
+    font-size: large;
+    font-weight: bold;
+}
+.seznam1 li article 
+{
+    margin-left:7%;
+    margin-right:7%;
+}
+.prop-slozky-n
+{
+    text-align: center;
+    background-color: rgb(55,55,55);
+    color:white;
+    font-weight: bold;
+}
+.prop-slozky-r
+{
+    margin-bottom: 20px;
+    text-align: center;
+}
+.seznam1 li:nth-child(even) {background: rgb(240, 240, 240)}
+.seznam li:nth-child(even) {background: rgb(240, 240, 240)}
+tr:nth-child(even) {background: rgb(240, 240, 240)}
+.blogo:hover
+{
+background-color: #ff3d41;
+}
+.hlogo:hover
+{
+    background-color: #ff3d41;
+}
+input
+{
+    background-color: white;
+}
+@media screen and (min-width:1890px)
+{
+    .grid-rady
+        {
+            display: grid;
+            grid-template-rows: auto auto ;
+            float:left;
+            margin-left:26%;
+            margin-top:2%;
+            margin-left: 3%;
+        }
+        .grid-historie
+        {
+            display:grid;
+            grid-template-columns: auto;
+            float: left;
+            margin:auto;
+            align-items: center;
+            text-align: center;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .grid-adres
+        {
+            margin-left:22%;
+            display: grid;
+            grid-template-columns: auto auto ;
+            text-align: center;
+            float:left;
+            align-items: center;
+            margin:auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .rada
+        {
+            justify-content: center;
+            margin:auto;
+            float: none;
+            align-items: center;
+            width: 700px;
+            height: 200px;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .clanek2
+        {
+            margin-left:1%;
+        }
+}
+@media  screen and (max-width:1890px)
+{
+        .grid-rady
+        {
+            display: grid;
+            grid-template-rows: auto auto ;
+            float:left;
+            margin-left:26%;
+            margin-top:2%;
+            margin-left: 3%;
+        }
+        .grid-historie
+        {
+            display:grid;
+            grid-template-columns: auto;
+            float: left;
+            margin:auto;
+            align-items: center;
+            text-align: center;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .grid-adres
+        {
+            margin-left:22%;
+            display: grid;
+            grid-template-columns: auto auto ;
+            text-align: center;
+            float:left;
+            align-items: center;
+            margin:auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .rada
+        {
+            justify-content: center;
+            margin:auto;
+            float: none;
+            align-items: center;
+            width: 700px;
+            height: 200px;
+            max-width: 100%;
+            max-height: 100%;
+        }
+        .clanek2
+        {
+            margin-left:1%;
+        }
+}
+@media screen and (max-width:1800px)
+{
+    .clanek1
+    { 
+        float: none;
+        overflow: auto;
+        margin:auto;
+        align-items: center;
+        width: 1000px;
+        max-width: 100%;
+    }
+    .obrazek1
+    {
+        float: none;
+        text-align: center;
+    }
+
+}
+@media screen and (max-width: 1790px) 
+{
+        .funkcionar
+        {
+            float: left;
+            margin-left: 4%;
+        }
+}
+@media  screen and (max-width:1700px) 
+{
+    .grid-adres
+    {
+        margin-left:22%;
+    }
+    .grid-rady
+    {
+        margin-left:26%;
+    }    
+    .clanek2
+    {
+        float: left;
+        margin-left:10%;
+        width: 500px;
+        height: 1100px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .obrazek2
+    {
+        float: none;
+        text-align: center;
+        align-items: center;
+    }
+}
+@media screen and (max-width: 1616px) 
+{
+        .funkcionar
+        {
+            float: left;
+            margin-left: 2%;
+        }
+        .grid-adres
+        {
+            margin-left:16%;
+        }
+        .grid-rady
+        {
+            margin-left:20%
+        }    
+}
+@media screen and (max-width: 1476px) 
+{
+        .funkcionar
+        {
+            float: left;
+            margin-left: 0%;
+        }
+        .clanek2
+        {
+            margin-left:5%;
+        }
+}
+@media screen and (max-width: 1360px) 
+{
+        .grid-funkcionar
+        {
+            display:grid;
+            grid-template-columns: auto auto;
+            margin-left:5%;
+        }
+        .clanek2
+        {
+            margin-left:3%;
+        }
+}
+@media screen and (max-width:1273px)
+{
+    .clanek2
+    {
+        float: left;
+        margin-left:18%;
+        width: 700px;
+        height: 1000px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+@media  screen and  (max-width:1174px)
+{
+    .galerie
+    {
+      overflow-x: auto;
+      margin:auto;
+      float:none;
+      min-height: 300px;
+      height: 500px;
+      max-height:100%;
+      min-width: 400px;
+      width: 700px;
+      max-width:100%;
+    }
+    .ftkgalerie
+    {
+        overflow-x: auto;
+        min-width: 400px;
+        width: 700px;
+        max-width: 100%;
+        min-height: 200px;
+        height: 400px;
+        max-height: 100%;
+    }
+    .grid-adres
+    {
+        margin-left:10%;
+    }
+    .grid-rady
+    {
+        margin-left:14%;
+    }
+    .clanek2
+    {
+        margin-left:12%;
+    }  
+}
+@media screen and (max-width:1171px)
+{
+    .clanek1
+    {
+        overflow: auto;
+        margin:auto;
+        float:none;
+        align-items: center;
+        width:700px;
+        max-width: 100%;
+    }
+    .obrazek1
+    {
+     float:none;
+     text-align: center;
+     max-width: 100%;
+    }
+}
+@media screen and (max-width:1050px)
+{
+    .grid-adres
+    {
+        margin-left:5%;
+    }
+    .grid-rady
+    {
+        margin-left:9%;
+    }  
+}
+@media screen and (max-width:959px)
+{
+    .grid-adres
+    {
+        margin-left:2%;
+    }
+    .grid-rady
+    {
+        margin-left:4%;
+    }  
+    .rada
+    {
+        float:none;
+        margin-left: 20%;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 600px;
+        height: 200px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .clanek2
+    {
+        margin-left:3%;
+    }
+}
+@media screen and (max-width:918px) 
+{
+    .navbar
+    {
+        margin-right:7%
+    }
+    nav li
+    {
+        float: left;
+        grid-row: 1 / 2;
+        padding-top:2%;
+        padding-right:80%;
+        padding-left: 20%;
+        padding-bottom:2%;
+        text-align: center;
+        width: auto;
+        max-width: 100%;
+    }
+    .grid-adres
+    {
+        margin-left:13%;
+    }
+    .tadresy
+    {
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 550px;
+        height: 450px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .mapaadresy
+    { 
+        margin-left: 10%;
+    }
+}
+@media screen and (max-width:829px)
+{
+    .clanek2
+    {
+        float: left;
+        margin-left:15%;
+        width: 500px;
+        height: 1050px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+@media screen and (max-width:800px)
+{
+    .grid-funkcionar
+    {
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .funkcionar
+    {
+        overflow: auto;
+        float: none;
+        align-items: center;
+        margin:auto;
+        max-width: 100%;
+    }
+    .rada
+    {
+        float:none;
+        margin-left: 20%;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .kform
+    {
+        width: 700px;
+        max-width: 100%;
+        height: 300px;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:780px)
+{
+    .rada
+    {
+        float:none;
+        margin-left: 10%;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 500px;
+        height: 200px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+@media screen and (max-width:742px)
+{
+    .grid-adres
+    {
+        margin-left:5%;
+    }
+    .tadresy
+    {
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 500px;
+        height: 400px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .mapaadresy
+    { 
+        margin-left: 10%;
+        width: 300px;
+        height: 400px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .clanek2
+    {
+        margin-left:3%;
+    }
+}
+@media screen and (max-width:604px)
+{
+    .rada
+    {
+        float:none;
+        margin: auto;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 400px;
+        height: 200px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .grid-adres
+    {
+        margin-left:0%;
+    }
+    .tadresy
+    {
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 400px;
+        height: 450px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .mapaadresy
+    { 
+        margin-left: 0%;
+        width: 350px;
+        height: 450px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .clanek2
+    {
+        float: left;
+        margin-left:15%;
+        width: 400px;
+        height: 1200px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+}
+@media screen and (max-width:558px)
+{
+    .clanek2
+    {
+        margin-left: 5%;
+    }
+}
+@media screen and (max-width:480px)
+{
+    .clanek2
+    {
+        float: left;
+        margin-left:3%;
+        width: 300px;
+        height: 1200px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+}
+@media screen and (max-width:477px)
+{
+    .p-o-text
+    {
+        padding-bottom:20%;
+    }
+    .p-o
+    {
+        padding-bottom:20%;
+    }
+    .galerie
+    {
+      overflow-x: auto;
+      margin:auto;
+      float:none;
+      min-height: 200px;
+      height: 400px;
+      max-height:100%;
+      min-width: 300px;
+      width: 600px;
+      max-width:100%;
+    }
+    .ftkgalerie
+    {
+        overflow-x: auto;
+        min-width: 300px;
+        width: 600px;
+        max-width: 100%;
+        min-height: 100px;
+        height: 300px;
+        max-height: 100%;
+    }
+    .rada
+    {
+        float:none;
+        margin-left: 2%;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 350px;
+        height: 200px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .grid-adres
+    {
+        margin-left:0%;
+    }
+    .tadresy
+    {
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 350px;
+        height: 450px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .mapaadresy
+    { 
+        margin-left: 0%;
+        width: 400px;
+        height: 450px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #mapa
+    {
+        margin-left:0%;
+        width: 300px;
+        height: 300px;
+    }
+    .mapa
+    {
+        margin-left: 5%;
+        width: 300px;
+        height: 450px;
+    }
+    .kform
+    {
+        width: 350px;
+        max-width: 100%;
+        height: 500px;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:425px)
+{
+    .p-o-text
+    {
+        padding-bottom:20px;
+    }
+    .p-o
+    {
+        padding-bottom:20px;
+    }
+    .galerie
+    {
+      overflow-x: auto;
+      margin:auto;
+      float:none;
+      min-height: 150px;
+      height: 450px;
+      max-height:100%;
+      min-width: 200px;
+      width: 500px;
+      max-width:100%;
+    }
+    .ftkgalerie
+    {
+        overflow-x: auto;
+        min-width: 200px;
+        width: 500px;
+        max-width: 100%;
+        min-height: 100px;
+        height: 300px;
+        max-height: 100%;
+    }
+    .rada
+    {
+        float:none;
+        margin-left: 2%;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 300px;
+        height: 350px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .grid-adres
+    {
+        margin-left:0%;
+    }
+    .tadresy
+    {
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 300px;
+        height: 600px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .mapaadresy
+    { 
+        margin-left: 0%;
+        width: 300px;
+        height: 450px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #mapa
+    {
+        margin-left:0%;
+        width: 300px;
+        height: 450px;
+    }
+    .mapa
+    {
+        margin-left: 0%;
+    }
+    .kform
+    {
+        width: 250px;
+        max-width: 100%;
+        height: 500px;
+        max-width: 100%;
+    }
+}
+@media screen and (max-width:375px)
+{
+    .rada
+    {
+        float:none;
+        margin-left: 2%;
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 300px;
+        height: 250px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .grid-adres
+    {
+        margin-left:0%;
+    }
+    .tadresy
+    {
+        align-items: center;
+        text-align: center;
+        overflow: hidden;
+        width: 275px;
+        height: 700px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .mapaadresy
+    { 
+        margin-left: 0%;
+        width: 250px;
+        height: 700px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    #mapa
+    {
+        margin-left:0%;
+        width: 250px;
+        height: 500px;
+    } 
+    .mapa
+    {
+        margin-left:5%;
+        width: 250px;
+        height: 500px;
+    }
+}
+@media screen and (max-width: 355px)
+{
+    .clanek2
+    {
+        float: left;
+        margin-left:3%;
+        width: 250px;
+        height: 1200px;
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .fot2
+    {
+        width:250px;
+        max-width: 100%;
+        height:auto;
+        max-height: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width:320px)
+{
+    .rada   
+    {
+        margin-left: 0%;
+        padding-left:0px;
+    }
+    .p-o-text
+    {
+        padding-bottom:20px;
+    }
+    .p-o
+    {
+        padding-bottom:20px;
+    }
+    .galerie
+    {
+      overflow-x: auto;
+      margin:auto;
+      float:none;
+      min-height: 150px;
+      height: 550px;
+      max-height:100%;
+      min-width: 200px;
+      width: 400px;
+      max-width:100%;
+    }
+    .ftkgalerie
+    {
+        overflow-x: auto;
+        min-width: 200px;
+        width: 400px;
+        max-width: 100%;
+        min-height: 100px;
+        height: 400px;
+        max-height: 100%;
+    }
+}
